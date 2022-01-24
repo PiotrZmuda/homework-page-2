@@ -1,216 +1,87 @@
-body {
-  /* overflow:hidden; */
-  flex-wrap: wrap;
-}
 
-.wrapper {
-  width: 1920px;
-  height: 1080px;
-  background: #ffffff;
-  display: flex;
-}
-h1 {
-  padding: 43px 29px 30px 0px;
-  font-family: Rubik;
-  font-weight: 500;
-  font-size: 24px;
-  color: #190f27;
-}
-
-.social-media-button {
-  margin-block: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 528px;
-  height: 50px;
-  left: 144px;
-  top: 296px;
-  line-height: 12px;
-
-  border: 1.5px solid #284642;
-  box-sizing: border-box;
-  border-radius: 7px;
-  background-color: white;
-}
-
-.social-media-button img {
-  height: 27px;
-  width: 27px;
-}
-
-.social-media-button span {
-  /* width: 186px; */
-  height: 17px;
-  left: 341px;
-  top: 310px;
-
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  margin-left: 19px;
-  color: #190f27;
-}
-
-.login-form {
-  width: 528px;
-  padding: 150px;
-}
-
-.name-container {
+.wrapper{
   display: flex;
 }
 
-.input-wrapper {
+.login-section{
+  margin-top: 175px;
+  padding: 141px;
+}
+
+
+h1{
   position: relative;
-  flex: 1;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    color: #190F27;
 }
 
-#first-name {
-  width: 237px;
+.text-section{
+    font-family: Rubik;
+    font-size: 18px;
+    line-height: 30px;
+    color: #64606A;
 }
 
-#last-name {
-  width: 258px;
+.text-section-email{
+  text-decoration: none;
+  color: #64606A;
+  font-weight: 500;
+
 }
 
-.input-wrapper input {
-  border: 1px solid #edebf0;
-  border-radius: 7px;
-  height: 55px;
-  width: 99%;
-  margin-block: 13px;
+.button{
+  margin-top: 40px;
 }
 
-.input-wrapper label {
-  padding: 3px;
-  background-color: white;
-  position: absolute;
-  left: 13px;
-  top: calc(50% - 86px / 2);
-
-  font-family: Rubik;
-  font-size: 10px;
-  line-height: 20px;
-  letter-spacing: 0.333333px;
-  color: #64606a;
+.button-text{
+     background: #284642;
+     width: 528px;
+     height: 50px;
+     border-radius: 7px;
+     left: 273.25px;
+     top: 504px;
+     font-family: Rubik;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     color: #FFFFFF;
+    
 }
 
-.value {
-  font-family: Rubik;
-  font-size: 16px;
-  letter-spacing: -0.0571429px;
-  color: #190f27;
+.divider{
+    height: 1px;
+    top: 556px;
+    background: #EDEBF0;
+    border-radius: 19px;
+    width: 525px;
+    margin: 17px 0px 15px 0px;
 }
-
-.padding {
-  background-color: lightgreen;
+.text{
+  font-family: Roboto;
+  color: #64606A;
 }
-
-.name-container {
-  display: flex;
-}
-
-.divider-text {
-  font-family: Rubik;
-  line-height: 23px;
-  color: #190f27;
-  padding: 14px;
-}
-
-.text-divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.divider {
-  margin-block: 16px;
-  background-color: #edebf0;
-  height: 1px;
-}
-
-.checkbox input {
-  width: 18px;
-  height: 18px;
-}
-
-.checkbox label {
-  position: relative;
-  top: -4px;
-  left: 4px;
-  font-family: Rubik;
-  font-size: 14px;
-  line-height: 22px;
-  color: #64606a;
-}
-
-.a {
-  color: #64606a;
+.send-text{
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 30px;
+  color: #64606A;
+  font-weight: 500;
   border-bottom: 3px solid #284642;
-  /* border-radius: 63px; */
   text-decoration: none;
 }
 
-/* .button{
-  } */
-
-.button-text {
-  font-family: Rubik;
-  font-weight: bold;
-  font-size: 18px;
-  color: #ffffff;
-  width: 100%;
-  height: 50px;
-  background: #284642;
-  border-radius: 7px;
-  margin-top: 16px;
-}
-.image {
-  background-color: rgba(40, 70, 66, 0.6);
-}
-.background-image {
-  position: relative;
-  top: 0;
-  left: 0;
+.wrapper-image{
+  background: rgba(40, 70, 66, 0.6);
   mix-blend-mode: multiply;
 }
-
-.text-image {
+.image{
+  background: rgba(40, 70, 66, 0.6);
+  mix-blend-mode: multiply;
+}
+.text-image{
   position: absolute;
-  top: 325px;
-  left: 1223px;
-}
-
-.log {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  color: #64606a;
-}
-
-/* Medium devices (landscape tablets, 768px and down) */
-@media only screen and (max-width: 768px) {
-  .name-container {
-    display: flex;
-    flex-direction: column;
-  }
-  #first-name {
-    width: 100%;
-  }
-
-  #last-name {
-    width: 100%;
-  }
-  .wrapper {
-    width: 320vh;
-    /* height: 1080px; */
-    background: #ffffff;
-    display: flex;
-    flex-direction: column-reverse;
-  }
+    top: 325px;
+    left: 1206px;
 }
