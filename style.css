@@ -1,87 +1,92 @@
-
-.wrapper{
+.wrapper {
   display: flex;
+  height: 1080px;
+  margin: auto;
 }
 
 .login-section{
-  margin-top: 175px;
-  padding: 141px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 20% 7%;
 }
 
-
 h1{
-  position: relative;
-    font-family: Rubik;
-    font-weight: 500;
-    font-size: 24px;
-    color: #190F27;
+  font-family: Rubik;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: -0.06px;
+color: #190F27;
 }
 
 .text-section{
-    font-family: Rubik;
-    font-size: 18px;
-    line-height: 30px;
-    color: #64606A;
-}
-
-.text-section-email{
-  text-decoration: none;
-  color: #64606A;
-  font-weight: 500;
-
+font-family: Rubik;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: #64606A;
 }
 
 .button{
-  margin-top: 40px;
-}
-
-.button-text{
-     background: #284642;
-     width: 528px;
-     height: 50px;
-     border-radius: 7px;
-     left: 273.25px;
-     top: 504px;
-     font-family: Rubik;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 18px;
-     color: #FFFFFF;
-    
+  background: #284642;
+  border-radius: 7px;
+  height: 50px;
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
 }
 
 .divider{
-    height: 1px;
-    top: 556px;
-    background: #EDEBF0;
-    border-radius: 19px;
-    width: 525px;
-    margin: 17px 0px 15px 0px;
-}
-.text{
-  font-family: Roboto;
-  color: #64606A;
-}
-.send-text{
-  font-family: Roboto;
-  font-size: 18px;
-  line-height: 30px;
-  color: #64606A;
-  font-weight: 500;
-  border-bottom: 3px solid #284642;
-  text-decoration: none;
+  height: 1px;
+  top: 556px;
+  background: #EDEBF0;
+  border-radius: 19px;
+  margin-block: 15px;
 }
 
-.wrapper-image{
-  background: rgba(40, 70, 66, 0.6);
-  mix-blend-mode: multiply;
+.text-message{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #64606A;
 }
-.image{
-  background: rgba(40, 70, 66, 0.6);
-  mix-blend-mode: multiply;
+
+.text-send{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #64606A;
+  text-decoration: underline solid #284642;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
 }
+
+
+.image-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61%;
+  background-image: url(./images/image.png);
+  background-color: rgba(40, 70, 66, 0.6);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
 .text-image{
-  position: absolute;
-    top: 325px;
-    left: 1206px;
+ width: 30%;
+}
+
+.text-image img{
+  max-width: 100%;
+  height: auto;
 }
