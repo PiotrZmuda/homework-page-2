@@ -138,9 +138,11 @@ color: #64606A;
     color: #64606A;
   }
 
-  .text-send{
+  .text-send span{
+  display: none;
+   }
+   .text-send::after{
+     content: 'Wyślij link';
+   }
   
-    background-color: red;
-
-  }
   }
