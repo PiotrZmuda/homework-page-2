@@ -90,3 +90,57 @@ color: #64606A;
   max-width: 100%;
   height: auto;
 }
+
+/* Small devices (portrait tablets and large phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+
+  body{
+    margin: 0%;
+  }
+
+
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .image-section{
+    background-image: url(./images/image-mobile.png);
+  }
+
+  .image-section{
+    height: 253px;
+    width: 100%;
+    padding: 12% 0%;
+  }
+
+  .login-section{
+    height: 100%;
+    width: 79%;
+    padding: 11% 11%;
+    }
+  
+
+  .text-section{
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #64606A;
+  }
+
+  .text-section b{
+    font-family: Rubik;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #64606A;
+  }
+
+  .text-send{
+  
+    background-color: red;
+
+  }
+  }
